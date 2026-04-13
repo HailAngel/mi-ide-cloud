@@ -1,9 +1,9 @@
 name: Verificación de Arquitectura
-on: [push] # Se dispara con cada push
+on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Usamos una VM de Linux en la nube
+    runs-on: ubuntu-latest
     steps:
       - name: Clonar código
         uses: actions/checkout@v4
