@@ -1,13 +1,6 @@
 {
     "name": "Entorno de Arquitectura Avanzada",
     "build": { "dockerfile": "Dockerfile" },
-    "features": {
-        "ghcr.io/devcontainers/features/postgres:latest": {
-            "version": "16",
-            "databaseName": "estudiante_db",
-            "adminPassword": "password123"
-        }
-    },
     "customizations": {
         "vscode": {
             "extensions": [
